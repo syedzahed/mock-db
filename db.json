@@ -1,0 +1,769 @@
+{
+  "categories": [
+    {
+      "id": "a80bbe16-b6ad-41dc-bb31-c37356ed515a",
+      "name": "appliances->kitchen->refrigerators",
+      "labels": [
+        {
+          "id": "6e1b87f2-19f8-11ed-861d-0242ac120002",
+          "name": "brand"
+        },
+        {
+          "id": "71ec4ba0-19f8-11ed-861d-0242ac120002",
+          "name": "icemaker"
+        },
+        {
+          "id": "75343930-19f8-11ed-861d-0242ac120002",
+          "name": "series"
+        },
+        {
+          "id": "787685f8-19f8-11ed-861d-0242ac120002",
+          "name": "height"
+        }
+      ]
+    },
+    {
+      "id": "5b0ef7ac-19f8-11ed-861d-0242ac120002",
+      "name": "appliances->kitchen->microwave",
+      "labels": [
+        {
+          "id": "6e1b87f2-19f8-11ed-861d-0242ac120002",
+          "name": "brand"
+        },
+        {
+          "id": "75343930-19f8-11ed-861d-0242ac120002",
+          "name": "series"
+        },
+        {
+          "id": "787685f8-19f8-11ed-861d-0242ac120002",
+          "name": "height"
+        },
+        {
+          "id": "7ba68b1a-19f8-11ed-861d-0242ac120002",
+          "name": "wattage"
+        }
+      ]
+    },
+    {
+      "id": "aba67785-b2db-4ab8-bbde-f491448d7dfa",
+      "name": "appliances->kitchen->dishwasher",
+      "labels": [
+        {
+          "id": "6e1b87f2-19f8-11ed-861d-0242ac120002",
+          "name": "brand"
+        },
+        {
+          "id": "e9da95f4-1c47-4ad0-8d3a-d3ebbf8801fd",
+          "name": "capacity"
+        }
+      ]
+    },
+    {
+      "id": "5e0de6df-75b2-41de-87af-c9844ac9e458",
+      "name": "appliances->bathroom->washing machine",
+      "labels": [
+        {
+          "id": "6e1b87f2-19f8-11ed-861d-0242ac120002",
+          "name": "brand"
+        },
+        {
+          "id": "75343930-19f8-11ed-861d-0242ac120002",
+          "name": "series"
+        },
+        {
+          "id": "787685f8-19f8-11ed-861d-0242ac120002",
+          "name": "height"
+        },
+        {
+          "id": "7ba68b1a-19f8-11ed-861d-0242ac120002",
+          "name": "wattage"
+        },
+        {
+          "id": "e9da95f4-1c47-4ad0-8d3a-d3ebbf8801fd",
+          "name": "capacity"
+        },
+        {
+          "id": "5d7d1cab-4ffc-479e-b566-03b22253da9b",
+          "name": "load type"
+        }
+      ]
+    },
+    {
+      "id": "0e090933-d857-4776-9a9d-36fdea0d75ca",
+      "name": "test create category",
+      "labels": [
+        {
+          "id": "787685f8-19f8-11ed-861d-0242ac120002",
+          "name": "height"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "icemaker",
+      "display": "test",
+      "prompts": "test",
+      "categories": [
+        {
+          "id": "a80bbe16-b6ad-41dc-bb31-c37356ed515a",
+          "name": "appliances->kitchen->refrigerators"
+        }
+      ],
+      "id": "71ec4ba0-19f8-11ed-861d-0242ac120002"
+    },
+    {
+      "id": "75343930-19f8-11ed-861d-0242ac120002",
+      "name": "series",
+      "display": "",
+      "prompts": "",
+      "categories": [
+        {
+          "id": "a80bbe16-b6ad-41dc-bb31-c37356ed515a",
+          "name": "appliances->kitchen->refrigerators"
+        },
+        {
+          "id": "5b0ef7ac-19f8-11ed-861d-0242ac120002",
+          "name": "appliances->kitchen->microwave"
+        }
+      ]
+    },
+    {
+      "id": "787685f8-19f8-11ed-861d-0242ac120002",
+      "name": "height",
+      "display": "",
+      "prompts": "",
+      "categories": [
+        {
+          "id": "a80bbe16-b6ad-41dc-bb31-c37356ed515a",
+          "name": "appliances->kitchen->refrigerators"
+        },
+        {
+          "id": "5b0ef7ac-19f8-11ed-861d-0242ac120002",
+          "name": "appliances->kitchen->microwave"
+        }
+      ]
+    },
+    {
+      "id": "7ba68b1a-19f8-11ed-861d-0242ac120002",
+      "name": "wattage",
+      "display": "",
+      "prompts": "",
+      "categories": [
+        {
+          "id": "5b0ef7ac-19f8-11ed-861d-0242ac120002",
+          "name": "appliances->kitchen->microwave"
+        }
+      ]
+    }
+  ],
+  "dataset_batch": [
+    {
+      "id": "da827ac7-3e3b-458c-8ff3-ff2a513509a9",
+      "name": "Training Batch",
+      "description": "This is a training batch",
+      "samples": [
+        "e0af042f-4b7d-4bd1-9a3d-74b73952f5f0"
+      ]
+    },
+    {
+      "id": "eaef5930-ea27-4e20-a2a4-4507c869e67f",
+      "name": "Validation Batch",
+      "description": "This is a validation batch",
+      "samples": [
+        "fc706053-8728-4b16-b1b0-5c58bd55781f"
+      ]
+    },
+    {
+      "id": "6871a478-2f81-4f2e-927f-51dab8f769fa",
+      "name": "Test Dataset Batch",
+      "description": "This is a Test Dataset Batch",
+      "samples": []
+    }
+  ],
+  "samples": [
+    {
+      "id": "e0af042f-4b7d-4bd1-9a3d-74b73952f5f0",
+      "text": "this kenmore eskimo series refrigerator keeps food very cool and it includes icemaker",
+      "category_id": "a80bbe16-b6ad-41dc-bb31-c37356ed515a",
+      "category_name": "appliances->kitchen->refrigerators",
+      "dataset_batch_ids": [
+        "da827ac7-3e3b-458c-8ff3-ff2a513509a9",
+        "eaef5930-ea27-4e20-a2a4-4507c869e67f"
+      ],
+      "dataset_batch_names": [
+        "Training Batch",
+        "Validation Batch"
+      ],
+      "labels": [
+        {
+          "id": "6e1b87f2-19f8-11ed-861d-0242ac120002",
+          "name": "brand",
+          "start_index": 5,
+          "end_index": 12,
+          "selectedText": "kenmore",
+          "startId": 1,
+          "endId": 1
+        },
+        {
+          "id": "71ec4ba0-19f8-11ed-861d-0242ac120002",
+          "name": "icemaker",
+          "start_index": 77,
+          "end_index": 85,
+          "selectedText": "icemaker",
+          "startId": 12,
+          "endId": 12
+        },
+        {
+          "id": "75343930-19f8-11ed-861d-0242ac120002",
+          "name": "series",
+          "start_index": 13,
+          "end_index": 19,
+          "selectedText": "eskimo",
+          "startId": 2,
+          "endId": 2
+        },
+        {
+          "id": "787685f8-19f8-11ed-861d-0242ac120002",
+          "name": "height",
+          "start_index": null,
+          "end_index": null,
+          "selectedText": "",
+          "startId": null,
+          "endId": null
+        }
+      ],
+      "created": "2022-08-12T02:34:04+0000",
+      "user_info": {
+        "name": "mahesh",
+        "id": 2256
+      },
+      "review_details": {
+        "status": "approved",
+        "started_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "started_date_time": "2022-08-23T07:23:51.629Z"
+        },
+        "approved_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "approved_date_time": "2022-08-23T07:41:59.585Z"
+        }
+      },
+      "tagging_details": {
+        "status": "completed",
+        "started_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "started_date_time": "2022-08-23T06:14:25.138Z"
+        },
+        "completed_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "completed_date_time": "2022-08-23T06:21:55.643Z"
+        }
+      }
+    },
+    {
+      "id": "fc706053-8728-4b16-b1b0-5c58bd55781f",
+      "text": "this kenmore volcano series 1000W microwave heats up food real fast",
+      "category_id": "5b0ef7ac-19f8-11ed-861d-0242ac120002",
+      "category_name": "appliances->kitchen->microwave",
+      "dataset_batch_ids": "da827ac7-3e3b-458c-8ff3-ff2a513509a9",
+      "dataset_batch_names": [
+        "Training Batch"
+      ],
+      "labels": [
+        {
+          "id": "6e1b87f2-19f8-11ed-861d-0242ac120002",
+          "name": "brand",
+          "start_index": 5,
+          "end_index": 12,
+          "selectedText": "kenmore",
+          "startId": 1,
+          "endId": 1
+        },
+        {
+          "id": "75343930-19f8-11ed-861d-0242ac120002",
+          "name": "series",
+          "start_index": 13,
+          "end_index": 20,
+          "selectedText": "volcano",
+          "startId": 2,
+          "endId": 2
+        },
+        {
+          "name": "height",
+          "id": "787685f8-19f8-11ed-861d-0242ac120002",
+          "start_index": null,
+          "end_index": null,
+          "selectedText": "",
+          "startId": null,
+          "endId": null
+        },
+        {
+          "id": "7ba68b1a-19f8-11ed-861d-0242ac120002",
+          "name": "wattage",
+          "start_index": 28,
+          "end_index": 33,
+          "selectedText": "1000W",
+          "startId": 4,
+          "endId": 4
+        }
+      ],
+      "created": "2022-08-10T02:34:04+0000",
+      "user_info": {
+        "name": "mahesh",
+        "id": 2256
+      },
+      "review_details": {
+        "status": "approved",
+        "started_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "started_date_time": "2022-08-23T16:39:45.820Z"
+        },
+        "approved_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "approved_date_time": "2022-08-25T04:30:40.334Z"
+        }
+      },
+      "tagging_details": {
+        "status": "completed",
+        "started_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "started_date_time": "2022-08-23T16:39:21.323Z"
+        },
+        "completed_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "completed_date_time": "2022-08-23T16:39:27.843Z"
+        }
+      }
+    },
+    {
+      "text": "This whirlpool tundra series refrigerator does not have a icemaker. Hence it is difficult to store ice creams in it.",
+      "category_id": "a80bbe16-b6ad-41dc-bb31-c37356ed515a",
+      "category_name": "appliances->kitchen->refrigerators",
+      "dataset_batch_ids": [
+        "da827ac7-3e3b-458c-8ff3-ff2a513509a9"
+      ],
+      "dataset_batch_names": [
+        "Training Batch"
+      ],
+      "labels": [
+        {
+          "id": "6e1b87f2-19f8-11ed-861d-0242ac120002",
+          "name": "brand",
+          "start_index": 5,
+          "end_index": 14,
+          "selectedText": "whirlpool",
+          "startId": 1,
+          "endId": 1
+        },
+        {
+          "id": "71ec4ba0-19f8-11ed-861d-0242ac120002",
+          "name": "icemaker",
+          "start_index": 58,
+          "end_index": 67,
+          "selectedText": "icemaker",
+          "startId": 9,
+          "endId": 9
+        },
+        {
+          "id": "75343930-19f8-11ed-861d-0242ac120002",
+          "name": "series",
+          "start_index": 15,
+          "end_index": 28,
+          "selectedText": "tundra series",
+          "startId": 2,
+          "endId": 3
+        },
+        {
+          "id": "787685f8-19f8-11ed-861d-0242ac120002",
+          "name": "height",
+          "start_index": null,
+          "end_index": null,
+          "selectedText": null,
+          "startId": null,
+          "endId": null
+        }
+      ],
+      "id": "5a6866bd-bd2a-4ecd-96d2-8b2ef5de4376",
+      "created": "2022-08-18T14:12:56+0000",
+      "user_info": {
+        "name": "mahesh",
+        "id": 2256
+      },
+      "review_details": {
+        "status": "rejected",
+        "started_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": 2356
+          },
+          "started_date_time": "2022-08-24T16:39:21.323Z"
+        },
+        "rejected_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": 2356
+          },
+          "rejected_date_time": "2022-08-23T20:39:21.323Z"
+        }
+      },
+      "tagging_details": {
+        "status": "completed",
+        "started_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": 2356
+          },
+          "started_date_time": "2022-08-23T20:39:21.323Z"
+        },
+        "completed_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": 2356
+          },
+          "completed_date_time": "2022-08-23T23:39:21.323Z"
+        }
+      }
+    },
+    {
+      "text": "Store more food with a very spacious 634 liter interior. With LG Unique SpaceMax series  uses special high-urethane insulation that enables the walls to be much thinner without compromising energy efficiency",
+      "category_id": "a80bbe16-b6ad-41dc-bb31-c37356ed515a",
+      "category_name": "appliances->kitchen->refrigerators",
+      "dataset_batch_ids": [
+        "da827ac7-3e3b-458c-8ff3-ff2a513509a9"
+      ],
+      "dataset_batch_names": [
+        "Training Batch"
+      ],
+      "labels": [
+        {
+          "id": "6e1b87f2-19f8-11ed-861d-0242ac120002",
+          "name": "brand",
+          "start_index": 62,
+          "end_index": 64,
+          "selectedText": "LG",
+          "startId": 11,
+          "endId": 11
+        },
+        {
+          "name": "icemaker",
+          "id": "71ec4ba0-19f8-11ed-861d-0242ac120002",
+          "start_index": null,
+          "end_index": null,
+          "selectedText": null,
+          "startId": null,
+          "endId": null
+        },
+        {
+          "id": "75343930-19f8-11ed-861d-0242ac120002",
+          "name": "series",
+          "start_index": 72,
+          "end_index": 80,
+          "selectedText": "SpaceMax",
+          "startId": 13,
+          "endId": 13
+        },
+        {
+          "id": "787685f8-19f8-11ed-861d-0242ac120002",
+          "name": "height",
+          "start_index": null,
+          "end_index": null,
+          "selectedText": null,
+          "startId": null,
+          "endId": null
+        }
+      ],
+      "id": "1f428030-cdf8-4e83-9a09-0e3b0fc7fd2b",
+      "created": "2022-08-23T17:25:05.896Z",
+      "review_details": {
+        "status": "in_progress",
+        "started_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "started_date_time": "2022-08-23T17:34:54.088Z"
+        }
+      },
+      "tagging_details": {
+        "status": "completed",
+        "started_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "started_date_time": "2022-08-23T17:25:07.626Z"
+        },
+        "completed_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "completed_date_time": "2022-08-23T17:34:41.017Z"
+        }
+      },
+      "user_info": {
+        "name": "maheshronde",
+        "id": "2356"
+      }
+    },
+    {
+      "text": "IFB 7 Kg 5 Star Front Load Washing Machine 2X Power Dual Steam (NEO DIVA BXS 7010, White & Black, Active Color Protection, Hard Water Wash)",
+      "category_id": "5e0de6df-75b2-41de-87af-c9844ac9e458",
+      "category_name": "appliances->bathroom->washing machine",
+      "dataset_batch_ids": [
+        "6871a478-2f81-4f2e-927f-51dab8f769fa"
+      ],
+      "dataset_batch_names": [
+        "Test Dataset Batch"
+      ],
+      "labels": [
+        {
+          "id": "6e1b87f2-19f8-11ed-861d-0242ac120002",
+          "name": "brand",
+          "start_index": 0,
+          "end_index": 3,
+          "selectedText": "IFB",
+          "startId": 0,
+          "endId": 0
+        },
+        {
+          "id": "75343930-19f8-11ed-861d-0242ac120002",
+          "name": "series",
+          "start_index": 9,
+          "end_index": 15,
+          "selectedText": "5 Star",
+          "startId": 3,
+          "endId": 4
+        },
+        {
+          "name": "height",
+          "id": "787685f8-19f8-11ed-861d-0242ac120002",
+          "start_index": null,
+          "end_index": null,
+          "selectedText": null,
+          "startId": null,
+          "endId": null
+        },
+        {
+          "name": "wattage",
+          "id": "7ba68b1a-19f8-11ed-861d-0242ac120002",
+          "start_index": null,
+          "end_index": null,
+          "selectedText": null,
+          "startId": null,
+          "endId": null
+        },
+        {
+          "id": "e9da95f4-1c47-4ad0-8d3a-d3ebbf8801fd",
+          "name": "capacity",
+          "start_index": 4,
+          "end_index": 8,
+          "selectedText": "7 Kg",
+          "startId": 1,
+          "endId": 2
+        },
+        {
+          "id": "5d7d1cab-4ffc-479e-b566-03b22253da9b",
+          "name": "load type",
+          "start_index": 16,
+          "end_index": 26,
+          "selectedText": "Front Load",
+          "startId": 5,
+          "endId": 6
+        }
+      ],
+      "id": "df763c4a-d141-4c43-95c4-0e1c920d1f69",
+      "created": "2022-08-25T04:42:27.799Z",
+      "review_details": {
+        "status": "approved",
+        "started_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "started_date_time": "2022-08-25T04:42:53.587Z"
+        },
+        "approved_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "approved_date_time": "2022-08-25T04:43:12.247Z"
+        }
+      },
+      "tagging_details": {
+        "status": "completed",
+        "started_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "started_date_time": "2022-08-25T04:42:27.799Z"
+        },
+        "completed_by": {
+          "user_info": {
+            "name": "maheshronde",
+            "id": "2356"
+          },
+          "completed_date_time": "2022-08-25T04:42:27.799Z"
+        }
+      },
+      "user_info": {
+        "name": "maheshronde",
+        "id": "2356"
+      }
+    },
+    {
+      "text": "this is the text",
+      "category_id": "5b0ef7ac-19f8-11ed-861d-0242ac120002",
+      "category_name": "appliances->kitchen->microwave",
+      "dataset_batch_ids": [
+        "da827ac7-3e3b-458c-8ff3-ff2a513509a9"
+      ],
+      "dataset_batch_names": [
+        "Training Batch"
+      ],
+      "labels": [
+        {
+          "name": "brand",
+          "id": "6e1b87f2-19f8-11ed-861d-0242ac120002"
+        },
+        {
+          "name": "series",
+          "id": "75343930-19f8-11ed-861d-0242ac120002"
+        },
+        {
+          "name": "height",
+          "id": "787685f8-19f8-11ed-861d-0242ac120002"
+        },
+        {
+          "name": "wattage",
+          "id": "7ba68b1a-19f8-11ed-861d-0242ac120002"
+        }
+      ],
+      "id": "d22768a6-12e1-4b2c-861d-3e9b60037939",
+      "created": "2023-02-15T19:14:10.263Z",
+      "review_details": {
+        "status": "not_started",
+        "started_by": {
+          "user_info": {
+            "name": null,
+            "id": null
+          },
+          "started_date_time": null
+        }
+      },
+      "tagging_details": {
+        "status": "not_started",
+        "started_by": {
+          "user_info": {
+            "name": null,
+            "id": null
+          },
+          "started_date_time": null
+        },
+        "completed_by": {
+          "user_info": {
+            "name": null,
+            "id": null
+          },
+          "completed_date_time": null
+        }
+      },
+      "user_info": {
+        "name": "syed",
+        "id": "2350"
+      }
+    },
+    {
+      "text": "test",
+      "category_id": "aba67785-b2db-4ab8-bbde-f491448d7dfa",
+      "category_name": "appliances->kitchen->dishwasher",
+      "dataset_batch_ids": [
+        "da827ac7-3e3b-458c-8ff3-ff2a513509a9"
+      ],
+      "dataset_batch_names": [
+        "Training Batch"
+      ],
+      "labels": [
+        {
+          "name": "brand",
+          "id": "6e1b87f2-19f8-11ed-861d-0242ac120002"
+        },
+        {
+          "name": "capacity",
+          "id": "e9da95f4-1c47-4ad0-8d3a-d3ebbf8801fd"
+        }
+      ],
+      "id": "4d06cf9a-9509-4eee-ad5c-6feed142e3d3",
+      "created": "2023-02-15T19:16:08.599Z",
+      "review_details": {
+        "status": "not_started",
+        "started_by": {
+          "user_info": {
+            "name": null,
+            "id": null
+          },
+          "started_date_time": null
+        }
+      },
+      "tagging_details": {
+        "status": "not_started",
+        "started_by": {
+          "user_info": {
+            "name": null,
+            "id": null
+          },
+          "started_date_time": null
+        },
+        "completed_by": {
+          "user_info": {
+            "name": null,
+            "id": null
+          },
+          "completed_date_time": null
+        }
+      },
+      "user_info": {
+        "name": "syed",
+        "id": "2350"
+      }
+    }
+  ],
+  "tagging_status_list": [
+    "not_started",
+    "in_progress",
+    "completed"
+  ],
+  "review_status_list": [
+    "not_started",
+    "in_progress",
+    "approved",
+    "rejected"
+  ]
+}
